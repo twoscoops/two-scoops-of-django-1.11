@@ -1,9 +1,5 @@
 # Changelog
 
-## Introduction
-
-* Focus on modern versions of Python (3.6+ and 2.7)
-
 ## Chapter 3
 
 * Changed our preferred project layout to the Saurabh Kumar's "modified 2-tier" design
@@ -33,6 +29,12 @@
 ## Chapter 22
 
 * Corrected method call in add_middleware_to_response to process_response
+
+## Chapter 25
+
+* Added Django Channels
+* Added Serverless (AWS Lambda)
+* Reduced content on Redis-Q, Huey, et al. We can only write what we are using, and we haven't touched any of these in years. Of course, all general advice still applies.
 
 ## Chapter 29
 
