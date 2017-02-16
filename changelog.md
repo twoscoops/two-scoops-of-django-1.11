@@ -1,5 +1,9 @@
 # Changelog
 
+## Introduction
+
+* Move to Python 2.7 and 3.5/3.6
+
 ## Chapter 3
 
 * Changed our preferred project layout to the Saurabh Kumar's "modified 2-tier" design
@@ -42,7 +46,7 @@
 
 ## Appendix F
 
-* Focus
+* Change from using Python 3.x with Django to using Python 2.7
 
 ## Universal
 
@@ -51,4 +55,5 @@
 * For ebooks, colorized the code examples
 * Switched from braces.views.LoginRequiredMixin to from django.contrib.auth.mixins.LoginRequiredMixin
 * Updated links
-* Python 3 everywhere!
+* Python 3 everywhere! All references to `__future__` are moved to Appendix F
+* When formatting allows, change from using 2scoops.co for links and to using direct HTTP references. 
