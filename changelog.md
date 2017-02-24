@@ -4,21 +4,21 @@
 
 * Move to Python 2.7 and 3.5/3.6
 
-## Chapter 1
+## Chapter 1 Coding Style
 
 * Move section on `from __future__ import absolute_imports` to Appendix F
 
-## Chapter 2
+## Chapter 2 The Optimal Django Environment Setup
 
 * Add GitLab as an DVCS option
 * Remove mention of Mercurial
 
-## Chapter 3
+## Chapter 3 How to Lay Out Django Projects
 
 * Changed our preferred project layout to the Saurabh Kumar's "modified 2-tier" design
 * Removed mention of deprecated project templates
 
-## Chapter 5
+## Chapter 5 Settings and Requirements Files
 
 * Switch from unipath to Pathlib
 * Remove mention of Mercurial
@@ -68,9 +68,27 @@
 
 * Added mention of Let's Encrypt
 
-## Chapter 29
+## Chapter 29 What About Those Random Utilities?
 
 * Converted slugification of non-English languages from a packagebox to its own subsection
+* Change unicode slugs to use Django's slugify function with the allow_unicode flag
+* Added subsection for using DRF serializers for serialization of data
+
+## Chapter 30 Deployment: Platforms as a Service
+
+* Added Elastic Beanstalk as an PaaS option
+* Added subsection on evaluating on which HTTP server a PaaS uses
+
+## Chapter 31 Deploying Django Projects
+
+* Updated "A Rapidly Changing World" to include Kubernetes and Mesos
+* Updated pros & cons of different HTTP server setups
+
+## Chapter 32 Continuous Integration
+
+* Changed "git or mercurial" to "GitHub or GitLab"
+* Added GitLab as an option for CI
+* Removed Drone, Circle, and codeship as options for CI. We haven't used any of them in a while, and Drone is out of business.
 
 ## Appendix F
 
@@ -83,6 +101,8 @@
 * For ebooks, colorized the code examples
 * Switched from braces.views.LoginRequiredMixin to from django.contrib.auth.mixins.LoginRequiredMixin
 * Updated links to point to Django 1.11
-* Python 3 everywhere! All references to `__future__` are moved to Appendix F
+* Python 3 everywhere! Some highlights:
+  * All references to `__future__` are moved to Appendix F.
+  * Removed Python 2.7 unicode-style string declarations
 * When formatting allows, change from using 2scoops.co for links and to using direct HTTP references. To preserve space, removed `http(s)` prefix wherever it didn't hurt formatting.
 * Added mention of GitLab in places where other repo hosting options are listed. For reference, the source code for Two Scoops of Django and the review process for it has been hosted on Git since 2014 (Two Scoops of Django 1.6)
