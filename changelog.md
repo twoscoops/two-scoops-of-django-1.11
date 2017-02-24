@@ -97,9 +97,11 @@
 * Added GitLab as an option for CI
 * Removed Drone, Circle, and codeship as options for CI. We haven't used any of them in a while, and Drone is out of business.
 
-## Appendix F
+## Appendix F Advice for Python 2.7 Users
 
-* Changed from using Python 3.x with Django to using Python 2.7
+* Changed appendix from how to use Python 3.x to a catch-all appendix for Python 2.7 users
+* Explained that Django is moving away from Python 2.7
+* Covered Armin Ronacher's problems with Python 3 unicode
 
 ## Universal
 
