@@ -2,16 +2,16 @@
 
 ## Introduction
 
-* Move to Python 2.7 and 3.5/3.6
+* Moved to Python 2.7 and 3.5/3.6
 
 ## Chapter 1 Coding Style
 
-* Move section on `from __future__ import absolute_imports` to Appendix F
+* Moved section on `from __future__ import absolute_imports` to Appendix F
 
 ## Chapter 2 The Optimal Django Environment Setup
 
-* Add GitLab as an DVCS option
-* Remove mention of Mercurial
+* Added GitLab as an DVCS option
+* Removed mention of Mercurial
 
 ## Chapter 3 How to Lay Out Django Projects
 
@@ -20,8 +20,8 @@
 
 ## Chapter 5 Settings and Requirements Files
 
-* Switch from unipath to Pathlib
-* Remove mention of Mercurial
+* Switcedh from unipath to Pathlib
+* Removed mention of Mercurial
 * Added Elastic Beanstalk in examples of how to set environment variables
 
 ## Chapter 6
@@ -46,6 +46,13 @@
 
 * Made focus of chapter Django REST Framework
 * Added more hyperrefs
+* Changed tutorial from adding a simple view to a walkthrough of DRF design concepts and best practices
+* Added recommendation not to use sequential keys for public identifiers
+* New section called 'When DRF Gets In the Way'
+  * Included RPC subsection
+  * New subsection on dealing with complex data
+  * Advising simplification/going atomic
+* Added examples to RPC subsection
 * Moved SOA discussion out. Might go to an appendix or a blog article
 
 ## Chapter 17
@@ -71,7 +78,7 @@
 ## Chapter 29 What About Those Random Utilities?
 
 * Converted slugification of non-English languages from a packagebox to its own subsection
-* Change unicode slugs to use Django's slugify function with the allow_unicode flag
+* Changed unicode slugs to use Django's slugify function with the allow_unicode flag
 * Added subsection for using DRF serializers for serialization of data
 
 ## Chapter 30 Deployment: Platforms as a Service
@@ -92,7 +99,7 @@
 
 ## Appendix F
 
-* Change from using Python 3.x with Django to using Python 2.7
+* Changed from using Python 3.x with Django to using Python 2.7
 
 ## Universal
 
