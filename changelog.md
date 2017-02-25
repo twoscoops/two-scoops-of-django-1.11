@@ -24,12 +24,17 @@
 * Removed mention of Mercurial
 * Added Elastic Beanstalk in examples of how to set environment variables
 
-## Chapter 6
+## Chapter 6 Model Best Practices
 
 * Added dedicated section for migrations
 * Added dedicated section on RunPython
 * Added subsections for getting access to methods of various types during migrations
 * Added subsection on RunPython-called functions that allow reverse migrations but do nothing
+
+## Chapter 8 Function- and Class-Based Views
+
+* Switch from pointing out failure in the Django tutorial to the Django CBV docs
+* Removed section warning about referencing views as strings in URLConf. Django thankfully removed this functionality in 1.10.
 
 ## Chapter 10
 
@@ -62,9 +67,30 @@
 * Mentioned JavaScript Fatigue
 * Removed section on helping search engines crawl AJAX-rendered pages. Modern search engines have improved and this no longer relevant
 
-## Chapter 22
+## Chapter 19 Working with the Django Admin
+
+* Changed "Don't use list\_editable in Multiuser Environments" to "Be wary of  Multiuser Environments"
+
+## Chapter 20 Dealing with the User Model
+
+* Removed opening paragraph about the confusion of User model practices from the pre-Django 1.5 era.
+* Removed section on migrating Pre-1.5 user models to 1.5+'s custom user models
+* Removed tipbox that the `User.get_profile()` method is gone, since that was removed circa 1.5.
+* Shortened summary as it contained thoughts on the 1.5-era changes
+
+## Chapter 21 Django's Secret Sauce: Third-Party Packages
+
+* Added mention of Cookiecutter's integration in IDEs such as PyCharm
+* Changed what is mention as Django project giveaways
+
+## Chapter 22 Testing
 
 * Corrected method call in add_middleware_to_response to process_response
+* Changed test file structure to specify nesting
+* Remind users not to use features of their IDE to structure tests
+* Added a tipbox pointing out that the Django testing tutorials' use of a utility function is a mistake
+* Added faker as a test data generator package
+
 
 ## Chapter 24 Finding and Reducing Bottlenecks
 
@@ -82,6 +108,8 @@
 * Added mention of Let's Encrypt
 * Added Mozilla Observatory to the checkup section
 * Changed section on lookups based on UUIDs to "Never Display Sequential Primary Keys"
+* Removed mention of django-passwords, as it's subsumed by Django's built-in password validators
+* Removed mention of django-autoadmin, as it no longer appears to be supported
 
 ## Chapter 29 What About Those Random Utilities?
 
