@@ -36,13 +36,13 @@
 * Corrected super() class call in FlavorUpdateView
 * Changed update_users_who_favorited to update_user_who_favorited
 
-## Chapter 15
+## Chapter 15 Jinja2
 
 * Removed Jinja2 section explaining that the Jinja2 documentation didn't accurately describe differences between DTL and Jinja2
 * Corrected import errors in chapter 15 examples
 * Fixed random_once comment on environment gotchas
 
-## Chapter 16
+## Chapter 16 Building REST APIs with Django Rest Framework
 
 * Made focus of chapter Django REST Framework
 * Added more hyperrefs
@@ -53,6 +53,7 @@
   * New subsection on dealing with complex data
   * Advising simplification/going atomic
 * Added examples to RPC subsection
+* Added subsection discussing how to name API-related modules.
 * Moved SOA discussion out. Might go to an appendix or a blog article
 
 ## Chapter 17
@@ -65,6 +66,11 @@
 
 * Corrected method call in add_middleware_to_response to process_response
 
+## Chapter 24 Finding and Reducing Bottlenecks
+
+* Updated links to modern versions of database references
+* Added Redis as a potential cache store
+
 ## Chapter 25
 
 * Added Django Channels
@@ -74,6 +80,8 @@
 ## Chapter 26
 
 * Added mention of Let's Encrypt
+* Added Mozilla Observatory to the checkup section
+* Changed section on lookups based on UUIDs to "Never Display Sequential Primary Keys"
 
 ## Chapter 29 What About Those Random Utilities?
 
