@@ -103,13 +103,23 @@
 * Added Serverless (AWS Lambda)
 * Reduced content on Redis-Q, Huey, et al. We can only write what we are using, and we haven't touched any of these in years. Of course, all general advice still applies.
 
-## Chapter 26
+## Chapter 26 Security
 
 * Added mention of Let's Encrypt
 * Added Mozilla Observatory to the checkup section
 * Changed section on lookups based on UUIDs to "Never Display Sequential Primary Keys"
 * Removed mention of django-passwords, as it's subsumed by Django's built-in password validators
 * Removed mention of django-autoadmin, as it no longer appears to be supported
+
+## Chapter 27 Logging
+
+* Described what Sentry does in greater detail and emphatically advocated its use
+* Removed App Enlight as an option
+* Added Opbeat as an option
+
+## Chapter 28 Signals: Use Cases and Avoidance Techniques
+
+* Added use case for third-party packages
 
 ## Chapter 29 What About Those Random Utilities?
 
