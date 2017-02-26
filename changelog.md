@@ -151,6 +151,8 @@
 
 ## Universal
 
+* Title has been changed to "Two Scoops of Django 1.11 LTS"
+* Subtitle is now "Best Practices for Django"
 * Grammar!
 * For ebooks, colorized the tip, warning, and package boxes
 * For ebooks, colorized the code examples
