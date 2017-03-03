@@ -2,7 +2,8 @@
 
 ## Introduction
 
-* Moved to Python 2.7 and 3.5/3.6
+* Moved to Python 2.7 and 3.6
+* Described why we aren't using f-strings in our code examples. We'll switch to them in TSD 2.2. ;)
 
 ## Chapter 1 Coding Style
 
@@ -30,6 +31,12 @@
 * Added dedicated section on RunPython
 * Added subsections for getting access to methods of various types during migrations
 * Added subsection on RunPython-called functions that allow reverse migrations but do nothing
+* Removed mention that BinaryField was added in Django 1.8
+* Removed any mention of IPAddressField
+
+## Chapter 7 Queries
+
+* Removed a number of mentions of changes that occurred in Django 1.8 or earlier.
 
 ## Chapter 8 Function- and Class-Based Views
 
@@ -96,6 +103,7 @@
 
 * Updated links to modern versions of database references
 * Added Redis as a potential cache store
+* Added the [Unnofficial MySql Optimizer Guide](http://www.unofficialmysqlguide.com)
 
 ## Chapter 25
 
@@ -110,6 +118,8 @@
 * Changed section on lookups based on UUIDs to "Never Display Sequential Primary Keys"
 * Removed mention of django-passwords, as it's subsumed by Django's built-in password validators
 * Removed mention of django-autoadmin, as it no longer appears to be supported
+* Removed warning about remove_tags. It was removed from Django in 1.10
+* Added shutdown packages
 
 ## Chapter 27 Logging
 
@@ -163,3 +173,7 @@
   * Removed Python 2.7 unicode-style string declarations
 * When formatting allows, change from using 2scoops.co for links and to using direct HTTP references. To preserve space, removed `http(s)` prefix wherever it didn't hurt formatting.
 * Added mention of GitLab in places where other repo hosting options are listed. For reference, the source code for Two Scoops of Django and the review process for it has been hosted on Git since 2014 (Two Scoops of Django 1.6)
+* Decided to once again not to include a list of links to code examples within the book. Why:
+  * Takes up a whopping 16 pages of the PDF
+  * Confuses searching PDFs
+  * The link to the code listings from the table of content insisted on going to the previous page. Even Audrey with her 15 years of LaTeX was stuck.
