@@ -1,4 +1,96 @@
-# Changelog
+# Changes on 2017-03-08
+
+## Chapter 2: Optimal Django Setup
+
+* Removed Vagrant mention
+* Added dockerbook.com to the list of useful Docker resources
+
+## Chapter 3: Ultimate Django Setup
+
+* Clarified and codified the setup text
+* Removed paragraph that duplicated a tipbox
+
+## Chapter 5: Settings and Requirements Files
+
+* In order to make the database setup example more succinct, removed the `USER`, `PASSWORD`, and `HOST` parameters
+
+## Chapter 6: Model Best Practices
+
+* Removed dead link to scalenpm.org.
+
+## Chapter 18
+
+* Repaired broken comparison table and added it back to the book
+
+## Chapter 26
+
+* Added readthedocs.com as a commercial documentation service
+
+## General
+
+* Massive internal reference link cleanup
+* Massive external link cleanup, ending at chapter 22 (we'll finish the rest tomorrow)
+
+# Changes on 2017-03-06
+
+## Note from the authors
+
+* Added Library of Congress as agency example
+
+## Introduction
+
+* Changed our ice cream preferences
+
+## Coding Style
+
+* Got link to wrap!
+
+## The Optimal Django Environment Setup
+
+* Added reference to RealPython article on Django + Docker
+
+## Form Fundamentals
+
+* Repaired broken code example that broke the LaTeX build
+
+## General
+
+* Titlecase corrections
+* Grammar!
+* Changed more links to point to Django 1.11 references
+* Figured out how to make links wrap. This will affect the layout in many places going forward
+
+
+
+# Changes on 2017-03-03
+
+# Introduction
+
+* Described why we aren't using f-strings in our code examples. We'll switch to them for TSD 2.2. ;)
+
+# Models
+
+* Removed mention that BinaryField was added in Django 1.8
+* Removed any mention of IPAddressField
+
+# Queries
+
+* Removed a number of mentions of changes that occurred in Django 1.8 or earlier.
+
+## Security
+
+* Removed warning about remove_tags. It was removed from Django in 1.10
+* Added shutdown packages
+
+## General
+
+* Decided to once again not to include a list of links to code examples within the book. Why:
+  * Takes up a whopping 16 pages of the PDF
+  * Confuses searching PDFs
+  * The link to the code listings from the table of content insisted on going to the previous page. Even Audrey with her 15 years of LaTeX was stuck.
+
+
+# Changes up to 2017-02-28
 
 ## Introduction
 
@@ -16,7 +108,7 @@
 
 ## Chapter 3 How to Lay Out Django Projects
 
-* Changed our preferred project layout to the Saurabh Kumar's "modified 2-tier" design
+* Changed our preferred project layout to the Saurabh Kumar's "modified two-tier" design
 * Removed mention of deprecated project templates
 
 ## Chapter 5 Settings and Requirements Files
@@ -177,59 +269,3 @@
   * Takes up a whopping 16 pages of the PDF
   * Confuses searching PDFs
   * The link to the code listings from the table of content insisted on going to the previous page. Even Audrey with her 15 years of LaTeX was stuck.
-
-# Changes on 2017-03-03
-
-# Introduction
-
-* Described why we aren't using f-strings in our code examples. We'll switch to them for TSD 2.2. ;)
-
-# Models
-
-* Removed mention that BinaryField was added in Django 1.8
-* Removed any mention of IPAddressField
-
-# Queries
-
-* Removed a number of mentions of changes that occurred in Django 1.8 or earlier.
-
-## Security
-
-* Removed warning about remove_tags. It was removed from Django in 1.10
-* Added shutdown packages
-
-## General
-
-* Decided to once again not to include a list of links to code examples within the book. Why:
-  * Takes up a whopping 16 pages of the PDF
-  * Confuses searching PDFs
-  * The link to the code listings from the table of content insisted on going to the previous page. Even Audrey with her 15 years of LaTeX was stuck.
-
-# Changes on 2017-03-06
-
-## Note from the authors
-
-* Added Library of Congress as agency example
-
-## Introduction
-
-* Changed our ice cream preferences
-
-## Coding Style
-
-* Got link to wrap!
-
-## The Optimal Django Environment Setup
-
-* Added reference to RealPython article on Django + Docker
-
-## Form Fundamentals
-
-* Repaired broken code example that broke the LaTeX build
-
-## General
-
-* Titlecase corrections
-* Grammar!
-* Changed more links to point to Django 1.11 references
-* Figured out how to make links wrap. This will affect the layout in many places going forward
