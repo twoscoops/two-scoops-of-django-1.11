@@ -1,3 +1,37 @@
+# Changes on 2017-03-13
+
+## Chapter 1: Coding Style
+
+* Use `implicit relative` consistently, removed use of the word `hardcoded`
+
+## Chapter 5: Settings and Requirement Files
+
+* Added `STATICFILES_DIRS` to hardcoding example
+* Changed DIRS as list to tuple in examples
+* Cleanup on example "Using os.path to discover project root"
+
+## Chapter 26: Security
+
+* Mentioned Insecure Direct Object References
+* Added warning box for Identity Attack Vector: Telephone Numbers
+
+## General
+
+* More consistent use of `python manage.py XYZ` vs `django-admin.py XYZ`
+* Code blocks are called 'Examples' in their title
+* As always, grammar corrections and enhancements
+* Changed `from django.core.urlresolvers import reverse` to `from django.urls import reverse`
+
+# Changes on 2017-03-09
+
+## Chapter 26 Security
+
+* Rather than using DTL for snippets (overkill), advocated using `format_html` instead
+
+## General
+
+* Massive external link cleanup
+
 # Changes on 2017-03-08
 
 ## Chapter 2: Optimal Django Setup
@@ -29,7 +63,7 @@
 ## General
 
 * Massive internal reference link cleanup
-* Massive external link cleanup, ending at chapter 22 (we'll finish the rest tomorrow)
+* Massive external link cleanup, ending at chapter 22
 
 # Changes on 2017-03-06
 
