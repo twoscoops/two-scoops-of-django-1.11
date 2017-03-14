@@ -1,3 +1,26 @@
+# Changes on 2017-03-14
+
+## Chapter 5: Settings and Requirements
+
+* Changed adding of values to `bin/activate` to `bin/postactivate`
+* Moved to consistent naming for local development settings. Specifically `local.py` or `local_pydanny.py` rather than having `dev.py` `dev_pydanny.py`
+
+## Chapter 7: Databases
+
+* Moved ORM definition to front of chapter
+
+## Chapter 19: Admin
+
+* Moved in the section on securing the admin from the security chapter
+
+## Chapter 26: Security
+
+* Moved section on securing the admin to the admin chapter
+
+## Chapter 33: Debugging
+
+* Updated the `ALLOWED_HOSTS` subsection to reflect it's always on and that it provides a useful error message
+
 # Changes on 2017-03-13
 
 ## Chapter 1: Coding Style
@@ -13,7 +36,7 @@
 ## Chapter 26: Security
 
 * Mentioned Insecure Direct Object References
-* Added warning box for Identity Attack Vector: Telephone Numbers
+* As it is out of scope for the book, removed edge case issue with telephone numbers as identity attack vendor.
 
 ## General
 
