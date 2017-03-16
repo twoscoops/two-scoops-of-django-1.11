@@ -1,3 +1,36 @@
+# Changes on 2017-03-15
+
+## Introduction
+
+* Explained why even though the book focuses on Python 3.6, we keep the old usage of the `super()` built-in. The reason is that switching would make the book challenging to use for all those Djangonauts still using Python 2.7. If there is a Two Scoops of Django 2.2, we'll use the terser form of `super()`
+
+## Chapter 1: Code Style
+
+* Added solution for unavoidable naming conflicts
+
+## Chapter 10: Best Practices for CBVs
+
+* Replaced the third introductory chapter that mostly explained the confusion around the 1.3 era release of CBVs with a tipbox about ccbv.co.uk in the guidelines section
+
+## Chapter 11: Form Patterns
+
+* Combined imports from same module
+* Referenced callables instead of just functions in custom form validators
+
+## Chapter 26: Security
+
+* First section is now a reference list to security-related material in other chapters
+* Content on handling security failures has been moved to Appendix H
+
+## Appendix H: Handling Security Failures
+
+## Universal
+
+* Grammar!
+* Corrected sorting of imports across the book
+* Switched from `MyKlass(object):` to `MyKlass:`
+* Links are wrapping!  
+
 # Changes on 2017-03-14
 
 ## Chapter 5: Settings and Requirements
