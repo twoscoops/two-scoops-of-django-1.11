@@ -1,3 +1,30 @@
+# Changes on 2017-03-17
+
+## Chapter 1: Coding Style
+
+* Switched JS linter from JSCS to ESLint
+* Switched CSS linter from csscomb to stylelint
+
+## Chapter 4: Fundamentals of App Design
+
+* Specified `db/` as a package so it wouldn't be mistaken as a directory
+
+## Chapter 5: Settings and Requirements
+
+* Added subsection on unsetting environment variables
+
+## Chapter 10: Best Practices for CBVs
+
+* Renamed PDFFlavorView to FlavorPDFView
+
+## Acknowledgements
+
+* For the sake of brevity, condensed the 1.5-era contributors down to just one section.
+
+## General
+
+* Finished rebuilding the book rendering process
+
 # Changes on 2017-03-15
 
 ## Introduction
