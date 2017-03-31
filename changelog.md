@@ -1,3 +1,71 @@
+# Changes on 2017-03-31
+
+## Chapter 13: Templates
+
+* Added tipbox advocating use of implicit context objects in templates when writing reusable code
+
+## Chapter 16: Django REST framework
+
+* Corrected description of 401 status
+
+## Chapter 17: Consuming REST
+
+* Added subsection for setting CSRF_HTTP_ONLY appropriately
+
+## Chapter 19: Admin
+
+* Switched from `admin.site.register` to using the `@admin.register` class decorator
+* Changed SSL recommendation to TLS
+* Changed `IceCreamBarAdmin` to `IceCreamBarModelAdmin`
+* Removed `ADMIN_FOR` reference as that was taken out in Django 1.7
+* Removed mention of use of `__unicode__()` method for Python 2.7 when that conflicts with use of `django.utils.encoding.python_2_unicode_compatible()`
+
+## Chapter 20: User Model
+
+* Removed references to Django 1.5 at the beginning
+* Moved warningbox about third-party packages to the end the chapter
+
+## Chapter 25: Async Task Queues
+
+* Switched table columns for determining if task queue is needed or not
+* Added subsection recommending writing idempotent tasks
+* Added tipbox encouraging use of pure functions
+
+## Appendix F: Python 2 to 3
+
+* Removed source encodings except for describing use with Python 2.7
+
+# Changes on 2017-03-28
+
+## Chapter 12: Forms
+
+* Provided commentary on slicing of serialized data
+
+## Chapter 13: templates
+
+* Removed subsection on template locations that duplicated the `Keep Templates Mostly in `templates/` section
+* Namespace `flavors_list` to `flavors:list`
+
+## Chapter 16: Django REST Framework
+
+* Changed `core/api.py` to `core/api_urls.py` because "explicit is better than Implicit"
+* Renamed `FlavorCreateReadView` and `FlavorReadUpdateDeleteView` to `FlavorListCreateAPIView` and `FlavorRetrieveUpdateDestroyAPIView`
+* Fleshed out the pouring syrup RPC example
+* Switched from slug to UUID for lookups as it will be more common for developers to use. Flavors and syrups are, by definition, limited in variety.
+
+## Chapter 26: Security
+
+* Clarified risks of non-HTTPS static/media
+
+## Chapter 34: Asking for helping
+
+* Added tipbox about the Django Code of Conduct
+
+## General
+
+* Grammar updates
+* Moved to single quotes for all Python examples (docstrings remain as double quotes)
+
 # Changes on 2017-03-23
 
 ## Chapter 12: More Forms
