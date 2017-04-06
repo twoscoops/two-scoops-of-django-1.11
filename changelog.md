@@ -1,3 +1,24 @@
+# Changes on 2017-04-06
+
+## Chapter 21: Third-Party Packages
+
+* Mentioned that @jayfk is the current maintainer of Django Packages
+* Removed tipbox with duplicate information from section 21.1
+* Added link to http://djangoappschecklist.com
+
+## Chapter 31: Deployments
+
+* Added Kubernetes
+* Removed most Chef and Puppet references
+
+## Chapter 33: Debugging
+
+* Mentioned that UserBasedExceptionMiddleware is a security concern
+
+## Acknowledgements
+
+* Added Ola Sendecka as a reviewer
+
 # Changes on 2017-03-31
 
 ## Chapter 13: Templates
