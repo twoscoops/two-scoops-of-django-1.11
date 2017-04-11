@@ -1,3 +1,33 @@
+# Changes on 2017-04-11
+
+## Chapter 7:Queries
+
+* Added tipbox about class-based model indexes
+* Added subsection on chaining queries for legibility
+
+## Chapter 16: Django Rest Framework
+
+* "304 Unchanged" changed to "304 Not Modified"
+* Mentioned built-in API docs
+* Mentioned Py/JS client libs at http://www.django-rest-framework.org/topics/api-clients/
+* Mentioned Core API
+
+## Chapter 19: Admin
+
+* Split `__str__()` and `list_display` into two subsections
+
+## Chapter 25: Asynchronous Django
+
+* Added django-background-tasks back in
+
+## Chapter 26: Security
+
+* Explain the purpose of a strong password better
+* Mentioned that DRF serializers can be used to validate incoming data
+* Added section for other useful tools
+  * django-restricted-sessions
+  * Mozilla SSL Configuration Generator
+
 # Changes on 2017-04-06
 
 ## Chapter 21: Third-Party Packages
@@ -174,11 +204,6 @@
 * Combined imports from same module
 * Referenced callables instead of just functions in custom form validators
 
-## Chapter 26: Security
-
-* First section is now a reference list to security-related material in other chapters
-* Content on handling security failures has been moved to Appendix H
-
 ## Appendix H: Handling Security Failures
 
 ## Universal
@@ -203,10 +228,6 @@
 
 * Moved in the section on securing the admin from the security chapter
 
-## Chapter 26: Security
-
-* Moved section on securing the admin to the admin chapter
-
 ## Chapter 33: Debugging
 
 * Updated the `ALLOWED_HOSTS` subsection to reflect it's always on and that it provides a useful error message
@@ -223,11 +244,6 @@
 * Changed DIRS as list to tuple in examples
 * Cleanup on example "Using os.path to discover project root"
 
-## Chapter 26: Security
-
-* Mentioned Insecure Direct Object References
-* As it is out of scope for the book, removed edge case issue with telephone numbers as identity attack vendor.
-
 ## General
 
 * More consistent use of `python manage.py XYZ` vs `django-admin.py XYZ`
@@ -236,10 +252,6 @@
 * Changed `from django.core.urlresolvers import reverse` to `from django.urls import reverse`
 
 # Changes on 2017-03-09
-
-## Chapter 26 Security
-
-* Rather than using DTL for snippets (overkill), advocated using `format_html` instead
 
 
 # Changes up to 2017-02-28
@@ -375,6 +387,7 @@
 
 ## Chapter 26 Security
 
+* First section is now a reference list to security-related material in other chapters
 * Added mention of Let's Encrypt
 * Added Mozilla Observatory to the checkup section
 * Changed section on lookups based on UUIDs to "Never Display Sequential Primary Keys"
@@ -382,6 +395,13 @@
 * Removed mention of django-autoadmin, as it no longer appears to be supported
 * Removed warning about remove_tags. It was removed from Django in 1.10
 * Added shutdown packages
+* Rather than using DTL for snippets (overkill), advocated using `format_html` instead
+* Moved section on securing the admin to the admin chapter
+* Mentioned Insecure Direct Object References
+* As it is out of scope for the book, removed edge case issue with telephone numbers as identity attack vendor.
+* Content on handling security failures has been moved to Appendix H
+
+
 
 ## Chapter 27 Logging
 
