@@ -1,3 +1,43 @@
+# Changes on 2017-04-16
+
+## Chapter 3: Django Project Layout
+
+* Added missing `apps.py` module and `migrations` directory to default app layout
+
+## Chapter 5: Settings and Requirements file
+
+* For windows environment variables, use `setx` instead of `set`
+
+## Chapter 10: CBVs
+
+* Use CHOICES attributes in example model
+
+## Chapter 19: Admin
+
+* Updated screenshots to the modern Django admin skin
+
+## Chapter 26: Security
+
+* Included subsection on unusual JavaScript
+* Included subsection on Content Security Policy
+* Discussed 2FA recovery scenarios
+
+## Chapter 35: Closing thoughts
+
+* Specified end-of-life date for Two Scoops of Django 1.11 (April 2020)
+
+* Included subsection on unusual JavaScript
+* Discussed 2FA recovery scenarios
+
+
+## Appendix G: Security Settings reference
+
+* Added SECURE_CONTENT_TYPE_NOSNIFF
+
+## General
+
+* Fixed titlecase issues
+
 # Changes on 2017-04-11
 
 ## Chapter 7:Queries
@@ -128,133 +168,10 @@
 * Added tipbox requesting commercial support of DRF
 * Added security-related section of the process of adding custom authentication schemes
 
-## Chapter 17: Consuming REST APIs
 
-* Changed CSRF section to advocate use of the DRF API client
+---
 
-## General
-
-* Grammar corrections
-
-# Changes on 2017-03-20
-
-## Chapter 6: models
-
-* Added subsection on RunPython.noop
-
-## Chapter 11: Forms
-
-* Added reference to abstract models in chapter 6
-
-## Chapter 12: More Forms
-
-* In code examples, for ultimate compatibility we switched from `import StringIO` to `from django.utils.six import StringIO`
-
-## Chapter 30: Platforms as a Service
-
-* Added subsection on multiple requirements files
-
-## General
-
-* Inline code examples are now shaded
-
-# Changes on 2017-03-17
-
-## Chapter 1: Coding Style
-
-* Switched JS linter from JSCS to ESLint
-* Switched CSS linter from csscomb to stylelint
-
-## Chapter 4: Fundamentals of App Design
-
-* Specified `db/` as a package so it wouldn't be mistaken as a directory
-
-## Chapter 5: Settings and Requirements
-
-* Added subsection on unsetting environment variables
-
-## Chapter 10: Best Practices for CBVs
-
-* Renamed PDFFlavorView to FlavorPDFView
-
-## Acknowledgements
-
-* For the sake of brevity, condensed the 1.5-era contributors down to just one section.
-
-## General
-
-* Finished rebuilding the book rendering process
-
-# Changes on 2017-03-15
-
-## Introduction
-
-* Explained why even though the book focuses on Python 3.6, we keep the old usage of the `super()` built-in. The reason is that switching would make the book challenging to use for all those Djangonauts still using Python 2.7. If there is a Two Scoops of Django 2.2, we'll use the terser form of `super()`
-
-## Chapter 1: Code Style
-
-* Added solution for unavoidable naming conflicts
-
-## Chapter 10: Best Practices for CBVs
-
-* Replaced the third introductory chapter that mostly explained the confusion around the 1.3 era release of CBVs with a tipbox about ccbv.co.uk in the guidelines section
-
-## Chapter 11: Form Patterns
-
-* Combined imports from same module
-* Referenced callables instead of just functions in custom form validators
-
-## Appendix H: Handling Security Failures
-
-## Universal
-
-* Grammar!
-* Corrected sorting of imports across the book
-* Switched from `MyKlass(object):` to `MyKlass:`
-* Links are wrapping!  
-
-# Changes on 2017-03-14
-
-## Chapter 5: Settings and Requirements
-
-* Changed adding of values to `bin/activate` to `bin/postactivate`
-* Moved to consistent naming for local development settings. Specifically `local.py` or `local_pydanny.py` rather than having `dev.py` `dev_pydanny.py`
-
-## Chapter 7: Databases
-
-* Moved ORM definition to front of chapter
-
-## Chapter 19: Admin
-
-* Moved in the section on securing the admin from the security chapter
-
-## Chapter 33: Debugging
-
-* Updated the `ALLOWED_HOSTS` subsection to reflect it's always on and that it provides a useful error message
-
-# Changes on 2017-03-13
-
-## Chapter 1: Coding Style
-
-* Use `implicit relative` consistently, removed use of the word `hardcoded`
-
-## Chapter 5: Settings and Requirement Files
-
-* Added `STATICFILES_DIRS` to hardcoding example
-* Changed DIRS as list to tuple in examples
-* Cleanup on example "Using os.path to discover project root"
-
-## General
-
-* More consistent use of `python manage.py XYZ` vs `django-admin.py XYZ`
-* Code blocks are called 'Examples' in their title
-* As always, grammar corrections and enhancements
-* Changed `from django.core.urlresolvers import reverse` to `from django.urls import reverse`
-
-# Changes on 2017-03-09
-
-
-# Changes up to 2017-02-28
+# Merged Release Changes
 
 ## Note from the authors
 
@@ -264,12 +181,16 @@
 ## Introduction
 
 * Moved to Python 2.7 and 3.6
-* Described why we aren't using f-strings in our code examples. We'll switch to them in TSD 2.2. ;)
+* Explained why even though the book focuses on Python 3.6, we keep the old usage of the `super()` built-in. The reason is that switching would make the book challenging to use for all those Djangonauts still using Python 2.7. If there is a Two Scoops of Django 2.2, we'll use the terser form of `super()`
 * Changed our ice cream preferences
 
 ## Chapter 1 Coding Style
 
+* Use `implicit relative` consistently, removed use of the word `hardcoded`
+* Added solution for unavoidable naming conflicts
 * Moved section on `from __future__ import absolute_imports` to Appendix F
+* Switched JS linter from `JSCS` to `ESLint`
+* Switched CSS linter from `csscomb` to `stylelint`
 
 ## Chapter 2 The Optimal Django Environment Setup
 
@@ -286,6 +207,9 @@
 * Clarified and codified the setup text
 * Removed paragraph that duplicated a tipbox
 
+## Chapter 4: Fundamentals of App Design
+
+* Specified `db/` as a package so it wouldn't be mistaken as a directory
 
 ## Chapter 5 Settings and Requirements Files
 
@@ -293,7 +217,12 @@
 * Removed mention of Mercurial
 * Added Elastic Beanstalk in examples of how to set environment variables
 * In order to make the database setup example more succinct, removed the `USER`, `PASSWORD`, and `HOST` parameters
-
+* Added `STATICFILES_DIRS` to hardcoding example
+* Changed DIRS as list to tuple in examples
+* Cleanup on example "Using os.path to discover project root"
+* Changed adding of values to `bin/activate` to `bin/postactivate`
+* Moved to consistent naming for local development settings. Specifically `local.py` or `local_pydanny.py` rather than having `dev.py` `dev_pydanny.py`
+* Added subsection on unsetting environment variables
 
 ## Chapter 6 Model Best Practices
 
@@ -306,17 +235,30 @@
 
 ## Chapter 7 Queries
 
+* Moved ORM definition to front of chapter
 * Removed a number of mentions of changes that occurred in Django 1.8 or earlier
 
-## Chapter 8 Function- and Class-Based Views
+## Chapter 8 Function- And Class-Based Views
 
 * Switch from pointing out failure in the Django tutorial to the Django CBV docs
 * Removed section warning about referencing views as strings in URLConf. Django thankfully removed this functionality in 1.10.
 
-## Chapter 10
+## Chapter 10: Best Practices for CBVs
 
-* Corrected super() class call in FlavorUpdateView
-* Changed update_users_who_favorited to update_user_who_favorited
+* Renamed `PDFFlavorView` to `FlavorPDFView`
+* Changed `update_users_who_favorited` to `update_user_who_favorited`
+* Corrected `super()` class call in `FlavorUpdateView`
+* Replaced the third introductory paragraph that mostly explained the confusion around the 1.3 era release of CBVs with a tipbox about ccbv.co.uk in the guidelines section
+
+## Chapter 11: Form Patterns
+
+* Combined imports from same module
+* Referenced callables instead of just functions in custom form validators
+* Added reference to abstract models in chapter 6
+
+## Chapter 12: More Forms
+
+* In code examples, for ultimate compatibility we switched from `import StringIO` to `from django.utils.six import StringIO`
 
 ## Chapter 15 Jinja2
 
@@ -343,10 +285,12 @@
 * Removed detailed JavaScript examples of how to deal with CSRF in exchange to links to the formal documentation for each framework
 * Mentioned JavaScript Fatigue
 * Removed section on helping search engines crawl AJAX-rendered pages. Modern search engines have improved and this no longer relevant
+* Changed CSRF section to advocate use of the DRF API client
 
 ## Chapter 19 Working with the Django Admin
 
 * Changed "Don't use list\_editable in Multiuser Environments" to "Be wary of  Multiuser Environments"
+* Moved in the section on securing the admin from the security chapter
 
 ## Chapter 20 Dealing with the User Model
 
@@ -377,7 +321,7 @@
 
 * Updated links to modern versions of database references
 * Added Redis as a potential cache store
-* Added the [Unnofficial MySql Optimizer Guide](http://www.unofficialmysqlguide.com)
+* Added the [Unofficial MySql Optimizer Guide](http://www.unofficialmysqlguide.com)
 
 ## Chapter 25
 
@@ -423,6 +367,7 @@
 
 * Added Elastic Beanstalk as an PaaS option
 * Added subsection on evaluating on which HTTP server a PaaS uses
+* Added subsection on multiple requirements files
 
 ## Chapter 31 Deploying Django Projects
 
@@ -435,32 +380,48 @@
 * Added GitLab as an option for CI
 * Removed Drone, Circle, and codeship as options for CI. We haven't used any of them in a while, and Drone is out of business.
 
+## Chapter 33: Debugging
+
+* Updated the `ALLOWED_HOSTS` subsection to reflect it's always on and that it provides a useful error message
+
 ## Appendix F Advice for Python 2.7 Users
 
 * Changed appendix from how to use Python 3.x to a catch-all appendix for Python 2.7 users
 * Explained that Django is moving away from Python 2.7
 * Covered Armin Ronacher's problems with Python 3 unicode
 
+## Acknowledgements
+
+* For the sake of brevity, condensed the 1.5-era contributors down to just one section.
+
+
 ## Universal
 
-* Title has been changed to "Two Scoops of Django 1.11 LTS"
-* Titlecase corrections
-* Subtitle is now "Best Practices for Django"
 * Grammar!
+* Titlecase corrections
 * Links enhancements
   * Links wrap!
   * Updated links to point to Django 1.11
   * Massive internal reference link cleanup  
 * For ebooks, colorized the tip, warning, and package boxes
 * For ebooks, colorized the code examples
-* Switched from braces.views.LoginRequiredMixin to from django.contrib.auth.mixins.LoginRequiredMixin
+* Switched from `braces.views.LoginRequiredMixin` to from `django.contrib.auth.mixins.LoginRequiredMixin`
 * Python 3 everywhere! Some highlights:
   * All references to `__future__` are moved to Appendix F
   * Removed Python 2.7 unicode-style string declarations
   * Changed from `class MyKlass(object)` to `class MyKlass`
-* When formatting allows, change from using 2scoops.co for links and to using direct HTTP references. To preserve space, removed `http(s)` prefix wherever it didn't hurt formatting.
-* Added mention of GitLab in places where other repo hosting options are listed. For reference, the source code for Two Scoops of Django and the review process for it has been hosted on Git since 2014 (Two Scoops of Django 1.6)
+* When formatting allows, changed from using [2scoops.co](https://2scoops.co) for links and to using direct HTTP references. To preserve space, removed `http(s)` prefix wherever it didn't hurt formatting.
+* Added mention of [GitLab](https://gitlab.com/) in places where other repo hosting options are listed. For reference, the source code for Two Scoops of Django and the review process for it has been hosted on [GitLab](https://gitlab.com/) since 2014 (Two Scoops of Django 1.6)
+* Changed `from django.core.urlresolvers import reverse` to `from django.urls import reverse`
+* Corrected sorting of imports across the book
+* Switched from `MyKlass(object):` to `MyKlass:`
+* Many inline code examples are now shaded
+
+## Things not done
+
 * Decided to once again not to include a list of links to code examples within the book. Why:
   * Takes up a whopping 16 pages of the PDF
   * Confuses searching PDFs
   * The link to the code listings from the table of content insisted on going to the previous page. Even Audrey with her 15 years of LaTeX was stuck.
+  * More consistent use of `python manage.py XYZ` vs `django-admin.py XYZ`
+  * Code blocks are called 'Examples' in their title  
