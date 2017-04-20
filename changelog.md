@@ -1,3 +1,12 @@
+# Changes on 2017-04-18
+
+## Chapter 6: models
+
+* Added choice model constants example
+* Added  enum variant of choice model constants example
+
+---
+
 # Changes on 2017-04-17
 
 ## Chapter 12: Form Fundamentals
