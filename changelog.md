@@ -1,30 +1,6 @@
-# Changes on 2017-04-18
+# Changelog for Two Scoops of Django 1.11
 
-## Chapter 6: models
-
-* Added choice model constants example
-* Added  enum variant of choice model constants example
-
----
-
-# Changes on 2017-04-17
-
-## Chapter 12: Form Fundamentals
-
-* Added section on Custom Form Widgets
-
-## Chapter 15: Jinja2
-
-* Changed subsection on how to use context processors as middleware to a tipbox advocating injection into the environment. This what Django recommends
-
-## Chapter 33: Debugging
-
-* Changed tipbox on `Take Care with Email Addresses` to `Take Special Care With User Data`
-
-
----
-
-# Merged Release Changes
+This lists many, but not all the changes between TSD 1.11 and TSD 1.8. 
 
 ## Note from the authors
 
@@ -32,7 +8,7 @@
 
 ## Introduction
 
-* Moved to Python 2.7 and 3.6
+* Moved to Python 2.7 and 3.6, with allowances for Python 3.5 and 3.4
 * Explained why even though the book focuses on Python 3.6, we keep the old usage of the `super()` built-in. The reason is that switching would make the book challenging to use for all those Djangonauts still using Python 2.7. If there is a Two Scoops of Django 2.2, we'll use the terser form of `super()`
 * Changed our ice cream preferences
 
@@ -51,6 +27,7 @@
 * Added reference to RealPython article on Django + Docker
 * Added dockerbook.com to the list of useful Docker resources
 * Removed Vagrant mention
+* Warned against use of SQLite in production
 
 ## Chapter 3: How to Lay Out Django Projects
 
@@ -86,6 +63,9 @@
 * Removed mention that BinaryField was added in Django 1.8
 * Removed any mention of IPAddressField
 * Removed dead link to scalenpm.org
+* Added choice model constants example
+* Added  enum variant of choice model constants example
+* Added JSONField to the list of PostgreSQL fields
 
 ## Chapter 7: Queries
 
@@ -119,6 +99,7 @@
 * In code examples, for ultimate compatibility we switched from `import StringIO` to `from django.utils.six import StringIO`
 * Refactored section on CSRF Protection
 * Provided commentary on slicing of serialized data
+* Added section on Custom Form Widgets
 
 
 ## Chapter 13: templates
@@ -132,6 +113,8 @@
 * Removed Jinja2 section explaining that the Jinja2 documentation didn't accurately describe differences between DTL and Jinja2
 * Corrected import errors in chapter 15 examples
 * Fixed random_once comment on environment gotchas
+* Changed subsection on how to use context processors as middleware to a tipbox advocating injection into the environment. This what Django recommends
+
 
 ## Chapter 16: Building REST APIs with Django Rest Framework
 
@@ -284,6 +267,7 @@
 
 * Updated the `ALLOWED_HOSTS` subsection to reflect it's always on and that it provides a useful error message
 * Mentioned that `UserBasedExceptionMiddleware` is a security concern
+* Changed tipbox on `Take Care with Email Addresses` to `Take Special Care With User Data`
 
 ## Chapter 34: Asking for help
 
