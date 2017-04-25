@@ -1,6 +1,12 @@
 Two Scoops of Django 1.11
 ===================================================
 
+.. image:: https://cdn.shopify.com/s/files/1/0304/6901/files/tsd-111-alpha-470x235.jpg?2934688328290951771
+   :name: Two Scoops of Django 1.11 Cover
+   :align: center
+   :alt: Two Scoops of Django
+   :target: http://twoscoopspress.org/products/two-scoops-of-django-1-11
+
 Tracking thoughts and feature requests for Two Scoops of Django 1.11 in the issue tracker.
 
 Before You Submit an Issue
@@ -15,4 +21,3 @@ Before You Submit an Issue
 * For tracking and credit purposes, **each request for correction needs to be in it's own issue. If an issue contains 2 or more issues, we'll close it with a request for breaking up into more atomic issues.**
 
 **Editorial Note:** In order to make issues more readily searchable, we will alter titles and descriptions of issues as needed.
-
