@@ -1,11 +1,7 @@
 Two Scoops of Django 1.11
 ===================================================
 
-.. image:: https://cdn.shopify.com/s/files/1/0304/6901/files/tsd-111-alpha-470x235.jpg?2934688328290951771
-   :name: Two Scoops of Django 1.11 Cover
-   :align: center
-   :alt: Two Scoops of Django
-   :target: http://twoscoopspress.org/products/two-scoops-of-django-1-11
+![Two Scoops of Django 1.11](https://cdn.shopify.com/s/files/1/0304/6901/files/tsd-111-alpha-470x235.jpg?2934688328290951771 "Two Scoops of Django 1.11")   
 
 Tracking thoughts and feature requests for Two Scoops of Django 1.11 in the issue tracker.
 
