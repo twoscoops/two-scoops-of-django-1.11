@@ -4,6 +4,10 @@
 
 * Corrected color for example 1.7
 
+## Chapter 3: How to Lay Out Django Projects
+
+* Corrected wrong default project layout by running `tree` again
+
 ## Chapter 30: Deployment: Platforms as a Service
 
 * Corrected wrong filename reference
