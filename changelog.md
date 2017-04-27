@@ -1,6 +1,22 @@
 # Changelog for Two Scoops of Django 1.11
 
-This lists many, but not all the changes between TSD 1.11 and TSD 1.8. 
+## Chapter 1: Coding Style
+
+* Corrected color for example 1.7
+
+## Chapter 30: Deployment: Platforms as a Service
+
+* Corrected wrong filename reference
+
+## Universal
+
+* Grammar!
+
+---
+
+# Changelog until 2015-04-25
+
+This lists many, but not all the changes between TSD 1.11 and TSD 1.8.
 
 ## Note from the authors
 
