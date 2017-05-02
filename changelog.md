@@ -8,6 +8,10 @@
 
 * Corrected wrong default project layout by running `tree` again
 
+## Chapter 13: Templates
+
+* Corrected comment to use `objects` attribute instead of `object`
+
 ## Chapter 30: Deployment: Platforms as a Service
 
 * Corrected wrong filename reference
@@ -15,6 +19,7 @@
 ## Universal
 
 * Grammar!
+* Better organization meant chopping off four(!) pages without losing any material
 
 ---
 
