@@ -1,4 +1,50 @@
-# Changelog for Two Scoops of Django 1.11
+# Changelog for Two Scoops of Django
+
+## Chapter 1: Coding Style
+
+* Added the `Standard` styleguide for JS and Node
+* Removed JS styleguides that have lost momentum
+
+## Chapter 3: Django Project layout
+
+* Moved the description of `config/` from table 3.2 to table 3.1
+
+## Chapter 6: models
+
+* Fixed JSONField `null` and `blank` descriptions
+* Added tipbox instructing that migrations must always be in version control
+
+## Chapter 7: queries
+
+* For the sake of clarity, changed `fun_function(**kwargs)` to `fun_function(name=None)`
+
+## Chapter 8: Function- and Class-Based Views
+
+* Corrected references numbers for bad examples
+
+## Chapter 14: Template Tags and Filters
+
+* Removed duplicate paragraph
+
+## Chapter 16: Building REST APIs with Django REST Framework
+
+* Correct API deprecation version mismatch
+
+## Appendix A: Packages Used In This Book
+
+* Added pipenv
+* Added django-js-reverse
+
+## Appendix D: Internationalization and Localization
+
+* Added section on the challenges of time
+
+## Appendix G: Security Settings reference
+
+* Fixed text overflow in table 35.2
+
+
+# Changelog until 2015-05-09
 
 ## Chapter 1: Coding Style
 
