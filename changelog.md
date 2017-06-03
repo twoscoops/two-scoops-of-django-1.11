@@ -1,75 +1,4 @@
-# Changelog for Two Scoops of Django
-
-## Chapter 1: Coding Style
-
-* Added the `Standard` styleguide for JS and Node
-* Removed JS styleguides that have lost momentum
-
-## Chapter 3: Django Project layout
-
-* Moved the description of `config/` from table 3.2 to table 3.1
-
-## Chapter 6: models
-
-* Fixed JSONField `null` and `blank` descriptions
-* Added tipbox instructing that migrations must always be in version control
-
-## Chapter 7: queries
-
-* For the sake of clarity, changed `fun_function(**kwargs)` to `fun_function(name=None)`
-
-## Chapter 8: Function- and Class-Based Views
-
-* Corrected references numbers for bad examples
-
-## Chapter 14: Template Tags and Filters
-
-* Removed duplicate paragraph
-
-## Chapter 16: Building REST APIs with Django REST Framework
-
-* Correct API deprecation version mismatch
-
-## Appendix A: Packages Used In This Book
-
-* Added pipenv
-* Added django-js-reverse
-
-## Appendix D: Internationalization and Localization
-
-* Added section on the challenges of time
-
-## Appendix G: Security Settings reference
-
-* Fixed text overflow in table 35.2
-
-
-# Changelog until 2015-05-09
-
-## Chapter 1: Coding Style
-
-* Corrected color for example 1.7
-
-## Chapter 3: How to Lay Out Django Projects
-
-* Corrected wrong default project layout by running `tree` again
-
-## Chapter 13: Templates
-
-* Corrected comment to use `objects` attribute instead of `object`
-
-## Chapter 30: Deployment: Platforms as a Service
-
-* Corrected wrong filename reference
-
-## Universal
-
-* Grammar!
-* Better organization meant chopping off four(!) pages without losing any material
-
----
-
-# Changelog until 2015-04-25
+## Two Scoops of Django Changelog
 
 This lists many, but not all the changes between TSD 1.11 and TSD 1.8.
 
@@ -90,6 +19,9 @@ This lists many, but not all the changes between TSD 1.11 and TSD 1.8.
 * Moved section on `from __future__ import absolute_imports` to Appendix F
 * Switched JS linter from `JSCS` to `ESLint`
 * Switched CSS linter from `csscomb` to `stylelint`
+* Corrected color for example 1.7
+* Added the `Standard` styleguide for JS and Node
+* Removed JS styleguides that have lost momentum
 
 ## Chapter 2: The Optimal Django Environment Setup
 
@@ -107,6 +39,9 @@ This lists many, but not all the changes between TSD 1.11 and TSD 1.8.
 * Clarified and codified the setup text
 * Removed paragraph that duplicated a tipbox
 * Added missing `apps.py` module and `migrations` directory to default app layout
+* Corrected wrong default project layout by running `tree` again
+* Moved the description of `config/` from table 3.2 to table 3.1
+
 
 ## Chapter 4: Fundamentals of App Design
 
@@ -137,6 +72,9 @@ This lists many, but not all the changes between TSD 1.11 and TSD 1.8.
 * Added choice model constants example
 * Added  enum variant of choice model constants example
 * Added JSONField to the list of PostgreSQL fields
+* Fixed JSONField `null` and `blank` descriptions
+* Added tipbox instructing that migrations must always be in version control
+
 
 ## Chapter 7: Queries
 
@@ -144,11 +82,13 @@ This lists many, but not all the changes between TSD 1.11 and TSD 1.8.
 * Removed a number of mentions of changes that occurred in Django 1.8 or earlier
 * Added tipbox about class-based model indexes
 * Added subsection on chaining queries for legibility
+* For the sake of clarity, changed `fun_function(**kwargs)` to `fun_function(name=None)`
 
 ## Chapter 8: Function- And Class-Based Views
 
 * Switch from pointing out failure in the Django tutorial to the Django CBV docs
 * Removed section warning about referencing views as strings in URLConf. Django thankfully removed this functionality in 1.10
+* Corrected references numbers for bad examples
 
 ## Chapter 10: Best Practices for CBVs
 
@@ -178,6 +118,11 @@ This lists many, but not all the changes between TSD 1.11 and TSD 1.8.
 * Removed subsection on template locations that duplicated the `Keep Templates Mostly in `templates/` section
 * Namespace `flavors_list` to `flavors:list`
 * Added tipbox advocating use of implicit context objects in templates when writing reusable code
+* Corrected comment to use `objects` attribute instead of `object`
+
+## Chapter 14: Template tags and filters
+
+* Removed duplicate paragraph
 
 ## Chapter 15: Jinja2
 
@@ -211,6 +156,7 @@ This lists many, but not all the changes between TSD 1.11 and TSD 1.8.
 * Switched from slug to UUID for lookups as it will be more common for developers to use. Flavors and syrups are, by definition, limited in variety
 * Added tipbox requesting commercial support of DRF
 * Added security-related section of the process of adding custom authentication schemes
+* Correct API deprecation version mismatch
 
 ## Chapter 17: Consuming REST APIs
 
@@ -321,6 +267,7 @@ This lists many, but not all the changes between TSD 1.11 and TSD 1.8.
 * Added Elastic Beanstalk as an PaaS option
 * Added subsection on evaluating on which HTTP server a PaaS uses
 * Added subsection on multiple requirements files
+* Corrected wrong filename reference
 
 ## Chapter 31: Deploying Django Projects
 
@@ -350,12 +297,18 @@ This lists many, but not all the changes between TSD 1.11 and TSD 1.8.
 
 ## Appendix A: Packages Used in the book
 
-* Added some new gems
+* Added a bunch of new awesome things
 * Removed dead packages
+* Added pipenv
+* Added django-js-reverse
 
 ## Appendix C: Resources
 
 * Focused more on up-to-date lists of of modern references
+
+## Appendix D: Internationalization and Localization
+
+* Added section on the challenges of time
 
 ## Appendix F: Advice for Python 2.7 Users
 
@@ -367,6 +320,7 @@ This lists many, but not all the changes between TSD 1.11 and TSD 1.8.
 ## Appendix G: Security Settings reference
 
 * Added `SECURE_CONTENT_TYPE_NOSNIFF`
+* Fixed text overflow in table 35.2
 
 ## Acknowledgements
 
@@ -374,6 +328,7 @@ This lists many, but not all the changes between TSD 1.11 and TSD 1.8.
 
 ## Universal
 
+* Added Appendix I: Websockets
 * Grammar!
 * Titlecase corrections
 * Links enhancements
