@@ -13,7 +13,9 @@ Permissions
 ============
 
 In general, you may use the code we've provided with this book in your
-programs and documentation. You do not need to contact us for permission unless you're reproducing a significant portion of the code or using it in commercial distributions. Examples:
+programs and documentation. You do not need to contact us for permission
+unless you're reproducing a significant portion of the code or using it in
+commercial distributions. Examples:
 
 * Writing a program that uses several chunks of code from this course does
     not require permission.
