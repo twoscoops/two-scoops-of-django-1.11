@@ -25,8 +25,8 @@ programs and documentation. You do not need to contact us for permission unless 
 
 Attributions usually include the title, author, publisher and an ISBN. For
 example, "Two Scoops of Django: Best Practices for Django 1.11, by Daniel
-Roy Greenfeld and Audrey Roy Greenfeld. Copyright 2015 Two Scoops Press
-(ISBN-WILL-GO-HERE)."
+Roy Greenfeld and Audrey Roy Greenfeld. Copyright 2017 Two Scoops Press
+(978-0-692-91572-1)."
 
 If you feel your use of code examples falls outside fair use of the permission
 given here, please contact us at info@twoscoopspress.org.
