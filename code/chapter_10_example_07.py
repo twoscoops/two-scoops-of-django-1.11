@@ -45,7 +45,7 @@ class Flavor(models.Model):
     STATUS_1 = 1
     STATUS_CHOICES=(
         (STATUS_0, 'zero'),
-        (STATUS_1 = 'one'),
+        (STATUS_1, 'one'),
     )
 
     title = models.CharField(max_length=255)
