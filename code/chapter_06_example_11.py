@@ -38,5 +38,5 @@ given here, please contact us at info@twoscoopspress.org.
 >>> from reviews.models import FlavorReview
 >>> FlavorReview.objects.filter().count()
 35
->>> FlavorReview.published.filter().count()
+>>> FlavorReview.published().filter().count()
 31
