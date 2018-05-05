@@ -62,7 +62,7 @@ class PourSyrupOnSundaeView(APIView):
             return Response({'message': msg}, status_code=404)
         return Response(SundaeSerializer(sundae).data)
 
-    def get(self, request, *args, **kwargs)
+    def get(self, request, *args, **kwargs):
         # Get list of syrups already poured onto the sundae
         sundae = get_object_or_404(Sundae, uuid=request.data['uuid'])
         syrups = [SyrupSerializer(x).data for x in sundae.syrup_set.all()]
