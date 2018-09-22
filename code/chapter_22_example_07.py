@@ -36,7 +36,7 @@ given here, please contact us at info@twoscoopspress.org.
 """
 
     @mock.patch.object(requests, 'get')
-    def test_request_failure(self, get)
+    def test_request_failure(self, get):
         """Test if the target site is innaccessible."""
         get.side_effect = requests.exception.ConnectionError()
 
@@ -44,7 +44,7 @@ given here, please contact us at info@twoscoopspress.org.
             list_flavors_sorted()
 
     @mock.patch.object(requests, 'get')
-    def test_request_failure(self, get)
+    def test_request_failure(self, get):
         """Test if we can handle SSL problems elegantly."""
         get.side_effect = requests.exception.SSLError()
 
