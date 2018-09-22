@@ -41,7 +41,7 @@ from os.path import abspath, dirname, join
 
 def root(*dirs):
     base_dir = join(dirname(__file__), '..', '..')
-    return abspath(join(bas_dir, *dirs))
+    return abspath(join(base_dir, *dirs))
 
 
 BASE_DIR = root()
